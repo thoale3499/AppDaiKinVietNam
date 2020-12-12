@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Grid_GoiYLuaChon_ThietBi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/tv_baotri_342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="120dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                android:text="Bảo trì" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Để thiết bị hoạt động ổn định và đạt hiệu quả cao nhất. Nên định kỳ vệ sinh, bảo trì thiết bị mỗi 3 đến 6 tháng (tùy vào tần suất sử dụng điều hòa)."
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginLeft="13dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maintenance Service"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border_dichvu"/>
+
+            <TextView
+                android:id="@+id/tv_link_342"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lợi ích của dịch vụ bảo trì Daikin"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#070707"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) Tiết kiệm"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn có thể lập kế hoạch ngân sách một cách dễ dàng vì sẽ không phát sinh bất kì một khoản chi phí đột xuất nào cho việc sửa chữa."
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2) Thân thiện với môi trường"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thiết bị hoạt động hiệu quả do đó giảm điện năng tiêu thụ giúp bảo vệ môi trường."
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3) An toàn"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An toàn là một trong những yêu cầu quan trọng nhất đối với máy điều hòa không khí sử dụng môi chất lạnh áp suất cao và các thành phần điện."
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4) Tuổi thọ dài hơn"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bảo trì cẩn thận và kỹ lưỡng giúp kéo dài tuổi thọ thiết bị."
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5) Chức năng thông minh hơn"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kiểm tra định kỳ giúp thiết bị luôn ở trong điều kiện tối ưu để kiểm soát nhiệt độ một cách chính xác."
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

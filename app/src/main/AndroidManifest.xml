@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.daikin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Grid_Goiyluachon_Dichvu" />
+        <activity android:name=".Detailtrangchu" />
+        <activity android:name=".ThongtinhotroActivity" />
+        <activity android:name=".CaiDatActivity" />
+        <activity android:name=".CauhoiActivity" />
+        <activity android:name=".Grid_GoiYLuaChon_ThietBi" />
+        <activity
+            android:name=".GrigItem_Goiyluachon_ThietBi"
+            android:label="@string/title_activity_grig_item__goiyluachon__thiet_bi" />
+        <activity android:name=".Goiyluachon" />
+        <activity android:name=".Fragment_TrangChu" />
+        <activity android:name=".Fragment_TaiKhoan" />
+        <activity android:name=".Fragment_ThongBao" />
+        <activity android:name=".Fragment_ThietBi" />
+        <activity android:name=".Fragment_DonHang" />
+        <activity android:name=".TrangChu" />
+        <activity android:name=".CapNhatTaiKhoan" />
+        <activity android:name=".MaXacNhan" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếng Việt"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2281CC"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếng Anh"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:textColor="#6E6F70"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp">
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logodaikin"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XIN CHÀO"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#575756"/>
+
+        <EditText
+            android:layout_marginTop="27dp"
+            android:id="@+id/inputEmail"
+            android:layout_width="358dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Nhập số điện thoại"
+            android:inputType="number"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_marginTop="82dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chúng tôi sẽ gửi mã xác thực tài khoản đến số điện thoại này"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:textColor="#575756"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:id="@+id/button342"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text=" Tiếp tục"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#FAFAFA"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="58dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bằng cách nhấn nút Tiếp tục, bạn đã đồng ý với "
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:textColor="#575756"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv342"
+            android:layout_marginTop="79dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điều khoản sử dụng "
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:textColor="#2281CC" />
+
+            <TextView
+                android:layout_marginTop="79dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  của DAIKIN Việt Nam "
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:textColor="#575756" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text=" Bản quyền 2019. DAIKIN VIETNAM "
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#575756" />
+    </RelativeLayout>
+
+</LinearLayout>

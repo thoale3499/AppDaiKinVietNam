@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Grid_GoiYLuaChon_ThietBi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/tv_dieuhoa_342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                android:text="Máy điều hòa treo tường" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hệ thống điều hòa không khí treo tường (hai dàn rời) của Daikin hiệu suất vượt trội, tiết kiệm điện năng, tạo sự thoải mái, là giải pháp phù hợp cho mọi không gian và phong cách sống. Dãy sản phẩm đa dạng sử dụng công nghệ Daikin có chi phí thấp hơn và giảm thiểu tác động đến môi trường. "
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginLeft="13dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muốn tìm hiểu thêm thông tin, quý khách vui lòng truy cập: "
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_link_342"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://www.daikin.com.vn/san-pham/dieu-hoa-dan-dung/loai-hai-dan-roi"
+                android:textSize="19sp"
+                android:textColor="#522A9A"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/img_chitietdieuhoa_342"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/dieuhoatreotuong"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

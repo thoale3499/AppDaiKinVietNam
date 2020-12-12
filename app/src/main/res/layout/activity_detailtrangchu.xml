@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="#403E3E"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Xong"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/back_detail_314"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_next"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="tinh tế.vn"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/ic_tdat"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_chuyen"/>
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_baseline_search_24"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="ĐĂNG NHẬP"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginLeft="200dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Khoa học công nghệ "
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/ic_next"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Điện tử - Tiêu dùng"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginLeft="2dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:layout_width="30dp"
+                        android:text="1"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:textStyle="normal"
+                        android:textColor="#FFF"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="30dp" />
+                    <Button
+                        android:layout_width="30dp"
+                        android:text="2"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:background="#FFF"
+                        android:textStyle="normal"
+                        android:textColor="#8C8585"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="30dp" />
+                    <Button
+                        android:layout_width="30dp"
+                        android:text="3"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:background="#FFF"
+                        android:textStyle="normal"
+                        android:textColor="#8C8585"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="30dp" />
+                    <Button
+                        android:layout_width="30dp"
+                        android:text="4"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:background="#FFF"
+                        android:textStyle="normal"
+                        android:textColor="#8C8585"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="30dp" />
+                    <Button
+                        android:layout_width="30dp"
+                        android:text="5"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:background="#FFF"
+                        android:textStyle="normal"
+                        android:textColor="#8C8585"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="30dp" />
+                    <Button
+                        android:layout_width="30dp"
+                        android:text="-->"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:background="#FFF"
+                        android:textStyle="normal"
+                        android:textColor="#8C8585"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="30dp" />
+                    <Button
+                        android:layout_width="30dp"
+                        android:text="6"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:background="#FFF"
+                        android:textStyle="normal"
+                        android:textColor="#8C8585"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="27sp"
+                        android:text="Trải nghiệm App đặt bảo trì máy lạnh chuyên nghiệp từ Daikin"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/border_detail"
+                        android:layout_marginTop="20dp">
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:text="5.0"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/ic_sao"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#FF9800"
+                            android:text="RẤT HAY VÀ HỮU ÍCH !"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"
+                            android:text=" /18 người"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/ic_taikhoan" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="cuhiep"
+                            android:textColor="#2196F3"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_tichxanh"/>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="20dp"
+                                android:text="  + Theo dõi"
+                                android:textColor="#fff"
+                                android:textSize="13sp"
+                                android:background="@drawable/border_theodoi"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="3 tháng * Bình luận : 214"
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/ic_book" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_marginLeft="300dp"
+                        android:text="Thông báo "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="370dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/anh1_tc"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/ic_cham"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:text="Đăng ký bảo trì máy lạnh qua app. Mọi chuyện đơn giản , tiện lợi như gọi xe, ship đồ ăn hay gửi đồ qua các app Grab, Gojek mà anh em hay dùng "/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/ic_cham"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Minh bạch đơn giá các gói bảo trì. Mô tả chi tiết dịch vụ"
+                            android:textColor="#000"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/ic_cham"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:text="Nhân viên chuyên nghiệp, từ quần áo, tác phong, giao tiếp. Mình hỏi thì biết Daikin kết hợp với các trường nghề để nhận đầu vào và đào tạo thành kĩ thuật viên chuyên nghiệp. Các kỹ thuật viên củng có app KTV giống như tài xế Gojek có app riêng để nhận việc. "/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
